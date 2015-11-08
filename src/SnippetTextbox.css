@@ -1,0 +1,32 @@
+.snippet-textbox-wrapper {
+  font-size: 1em;
+}
+
+.snippets {
+  padding: 0.5rem 0.5rem 0;
+  border: 1px solid #ccc; 
+  border-bottom: none;
+  width: 20rem;
+}
+
+.draggable-snippet {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.drop-textbox {
+  padding: 0 0.5rem 0.5rem;
+  border: 1px solid #ccc; 
+  border-top: none;
+  width: 20rem;
+  height: 25rem;
+}
+
+.drop-textbox textarea {
+  width: 100%;
+  height: 100%;
+  border: none; 
+  resize: none;
+  word-wrap: break-word;
+  white-space: pre;
+}
